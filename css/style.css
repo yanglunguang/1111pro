@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;}
+.section-img{
+    max-width: 100%;
+    -webkit-max-width:360px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+}
+.w-600px{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.w-350px{
+    max-width: 334px;
+    margin: 0 auto;
+}
+.img-1{
+    width: 100%;
+    margin-top: 10px;
+}
+.img-icon{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #cacaca;
+    float: left;
+}
+.content-header{
+    height: 50px;
+}
+h3{
+    font-weight: 300;
+}
+.p-style{
+    font-weight: 200;
+    font-size: 0.6em;
+    color:#888888 ;
+    line-height: 1.4em;
+}
+.section-img{
+    max-width: 375px;
+}
+.discover-header-seach-a{
+    width: 94%;
+    height: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background:#FFFFFF;
+    border: #4e4e4e 1px solid;
+    border-radius: 3px;
+}
+.position{
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
+.discover-header-seach-icon{
+    width: 15px;
+    height: 15px;
+}
+.discover-header-seach-font{
+    font-family: 'Arial', sans-serif;
+    font-weight: 100;
+    font-size: 0.4em;
+    color: #c8c8c8;
+    text-decoration: none;
+}
+.banner{
+    height: 170px;
+    width: 100%;
+    background: #222;
+}
+.discover-font{
+    font-family: 'Arial', sans-serif;
+    font-size: 0.4em;
+
+}
+.pro-img-position{
+    width: 75px;
+    height: 75px;
+    border: 6px solid #ffffff;
+    color: #FFFFFF;
+    border-radius:6px ;
+    position: relative;
+    float: left;
+}
+.pro{
+    background: #FFFFFF;
+}
+
+#pro-img-1{
+    background: url("../img/discover-img-1.jpg");
+}#pro-img-2{
+    background: url("../img/discover-img-2.jpg");
+}#pro-img-3{
+    background: url("../img/discover-img-3.jpg");
+}#pro-img-4{
+    background: url("../img/discover-img-4.jpg");
+}
+.discover-font-position{
+    line-height: 18px;
+}
+.discover-pro-img{
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 16px;
+    left: 14px;
+    text-align: center;
+}
+.selection{
+    width: 100%;
+    height: 500px;
+    background: #ffffff;
+    margin: 8px auto;
+}
+.discover-img{
+    width: 350px;
+    margin: 0 auto;
+}
+.p-position{
+    width:356px;
+    margin: 0 auto;
+}

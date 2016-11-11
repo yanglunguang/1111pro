@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=false">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Eyepetizer</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.0.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css"/>-->
+    <script src="js/jquery.js"></script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="js/jquery.mobile-1.0.min.js"></script>
+
+
+    <script src="js/min/jquery-v1.10.2.min.js"></script>
+    <script src="js/min/modernizr-custom-v2.7.1.min.js"></script>
+    <script src="js/min/jquery-finger-v0.1.0.min.js"></script>
+
+    // Flickerplate
+    <script src="js/min/flickerplate.min.js"></script>
+    <link href="css/flickerplate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div data-role="page" id="page1">
+    <div data-role="header" style="height: 35px; background: #1b1b1b">
+            <a href="#page2" data-transition="fade" style="clear: both" data-role="none" class="discover-header-seach-a">
+
+                <div class="position">
+                        <img src="img/zoom49.png" class="discover-header-seach-icon">
+                        <span class="discover-header-seach-font" >搜索你感兴趣的内容</span>
+                </div>
+                      
+            </a>
+    </div>
+    <div class="banner w-600px">
+        <div class="flicker-example">
+            <ul>
+                <li data-background="img/img5.jpg" style="background-image: url("/img/img5.jpg")"></li>
+                <li data-background="img/img4.jpg" style="background-image: url("/img/img4.jpg")"></li>
+                <li data-background="img/img6.jpg" style="background-image: url("/img/img6.jpg")">
+                    <!--<div class="flick-title">Title 3</div>-->
+                    <!--<div class="flick-sub-text">Text line 3</div>-->
+                </li>
+            </ul>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $(".flicker-example").flicker();
+            });
+        </script>
+    </div>
+    <div class="pro w-600px">
+
+                    <div data-role="content">
+                        <div class="p-position">
+                            <p class="discover-font" style="margin-left: 10px;">分类查看主题帖</p>
+                        </div>
+
+                        <div class="discover-img">
+                            <div class="pro-img-position" id="pro-img-1">
+                                <div class="discover-pro-img">
+                                    <p class="discover-font discover-font-position">设计<br>Design</p>
+                                </div>
+                            </div>
+                            <div class="pro-img-position " id="pro-img-2">
+                                <div class="discover-pro-img">
+                                    <p class="discover-font discover-font-position">趣味<br>Fun</p>
+                                </div>
+                            </div>
+                            <div class="pro-img-position " id="pro-img-3">
+                                <div class="discover-pro-img">
+                                    <p class="discover-font discover-font-position">影视<br>Film＆TV</p>
+                                </div>
+                            </div>
+                            <div class="pro-img-position " id="pro-img-4">
+                                <div class="discover-pro-img">
+                                    <p class="discover-font discover-font-position">科普<br>Science</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    </div>
+    <div class="selection w-600px">
+
+    </div>
+    <div data-role="footer" data-position="fixed" style="background: #1b1b1b">
+        <div class="ui-grid-c" style="height: 45px;font-weight: 300;text-align: center;line-height:14px;font-family: Helvetica,Arial,sans-serif;font-size:0.8em;" >
+            <div class="ui-block-a" style="margin-top: 8px;"><a class="btn-active" href="index.html" style="color: #ffffff;"><span style="font-size: 1.6em;font-weight: 100;">L</span><br> <span style="font-size: 0.4em;font-weight: 100;clear: both">推荐</span></a></div>
+            <div class="ui-block-b" style="margin-top: 8px;"><a href="#" style="color: #0099cc";><span style="font-size: 1.6em;font-weight: 100;">O</span><br> <span style="font-size: 0.4em;font-weight: 100;clear: both">发现</span></a></div>
+            <div class="ui-block-c" style="margin-top: 8px;"><a href="writer.html" style="color: #FFFFFF";><span style="font-size: 1.6em;font-weight: 100;">O</span><br> <span style="font-size: 0.4em;font-weight: 100;clear: both">社区</span></a></div>
+            <div class="ui-block-d" style="margin-top: 8px;"><a href="my.html" style="color: #FFFFFF";><span style="font-size: 1.6em;font-weight: 100;">K</span><br> <span style="font-size: 0.4em;font-weight: 100;clear: both">我的</span></a></div>
+        </div>
+    </div>
+</div>
+<div data-role="page" id="page2">
+
+</div>
+</body>
+</html>
